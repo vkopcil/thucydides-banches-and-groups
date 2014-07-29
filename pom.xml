@@ -63,8 +63,8 @@
                     <!-- parallel>classes</parallel -->
                     <systemPropertyVariables>
                         <webdriver.driver>${webdriver.driver}</webdriver.driver>
-                        <!-- thucydides.batch.count>3</thucydides.batch.count>
-                        <thucydides.batch.number>2</thucydides.batch.number -->
+                        <thucydides.batch.count>3</thucydides.batch.count>
+                        <thucydides.batch.number>3</thucydides.batch.number>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
