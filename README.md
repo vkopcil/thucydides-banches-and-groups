@@ -7,9 +7,7 @@ Project is based on thucydides-simple-archetype v 0.9.262.
 Instead of failsafe plugin I have to use surefire, which means tests are executed in test phase.
 To eliminate any known and solved bugs in surefire plugin itself, I've updated it's version.
 You can use 
-{code}
-mvn test thucydides:aggregate
-{code}
+<code>mvn test thucydides:aggregate</code>
 to run tests and generate report.
 I've created three test classes from original one, to demonstrate batch selection.
 
